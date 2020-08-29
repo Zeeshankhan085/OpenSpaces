@@ -14,6 +14,7 @@ $(window).on("load resize orientationchange", function () {
           slidesToScroll: 1,
           mobileFirst: true,
           dots: true,
+          center: true,
         });
       }
     }
@@ -23,8 +24,10 @@ $(window).on("load resize orientationchange", function () {
 $(document).ready(function () {
   $(".carousel-2").slick({
     slidesToShow: 1,
-    centerMode: true,
-    border: false,
+    slidesToScroll: 1,
+    mobileFirst: true,
+    dots: true,
+    center: true,
   });
 });
 
@@ -44,6 +47,7 @@ $(window).on("load resize orientationchange", function () {
           slidesToScroll: 1,
           mobileFirst: true,
           dots: true,
+          center: true,
         });
       }
     }
