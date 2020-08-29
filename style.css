@@ -87,6 +87,9 @@ header {
 .header-top {
   position: fixed;
   padding: 0 1em;
+  top: 20px;
+  left: 0;
+  right: 0;
 }
 
 /* Company Section */
